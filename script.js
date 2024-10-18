@@ -184,7 +184,7 @@ function updateCartModal(){
         }).join("")
 
         const message = encodeURIComponent(cartItems)
-        const phone = "6191816615"
+        const phone = "61991816615"
 
         window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`,"_blank")
 
